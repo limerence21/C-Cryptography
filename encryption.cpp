@@ -18,7 +18,7 @@ bool performCaesarCipher(string& content, bool encrypt){
 }
 
 
-bool encryptFIle(const string& filename, bool encrypt){
+bool encryptFile(const string& filename, bool encrypt){
     //Membuka input file
     ifstream inFile(filename);
     if (!inFile){
