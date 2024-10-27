@@ -13,5 +13,10 @@ int main(){
     cout << "Enskripsi (e) atau Deksripsi (d)? : ";
     cin >> mode;
 
+    if (mode == 'e' || mode == 'E'){
+        
+
+    };
+
     return 0;
 };
