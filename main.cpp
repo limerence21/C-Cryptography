@@ -28,7 +28,6 @@ int main(){
     } else{
         cerr << "Error: Input Mode tidak valid." << endl;
     }
-     
 
     return 0;
 };
