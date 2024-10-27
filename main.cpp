@@ -10,6 +10,8 @@ int main(){
     cout << "Masukan nama file: ";
     getline(cin >> ws, filename);
 
+    cout << "Enskripsi (e) atau Deksripsi (d)? : ";
+    cin >> mode;
 
     return 0;
 };
